@@ -1,0 +1,331 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+/*网页头部*/
+header {
+    padding: 22px 70px;
+    height: 61px;
+    box-shadow: 3px 3px 20px 1px #ccc;
+}
+.headerc .logo{
+    display: block;
+    width: 160px;
+    height: 50px;
+    float: left;
+    background: url(../images/register.png) no-repeat;
+}
+.headerc span {
+    margin-top: 10px;
+    float: left;
+    font-size: 26px;
+    color: #333;
+}
+.headerc b {
+    font-weight: normal;
+    font-size: 18px;
+    float: right;
+    margin-top: 30px;
+    margin-right: 30px;
+    color: #999;
+}
+.headerc b a {
+    color: #EE2222;
+}
+/*侧边栏*/
+.slide {
+    cursor: pointer;
+    width: 32px;
+    height: 135px;
+    margin-top: -67.5px;
+    position: fixed;
+    right: 0px;
+    bottom: 50%;
+    background: red;
+    background: url("../images/register.png");
+    background-position: -368px 0px;
+}
+.slide:hover {
+    background: url("../images/register.png");
+    background-position: -334px 0px;
+}
+/*中部内容*/
+.container {
+    width: 1210px;
+    height: 407px;
+    margin: 85px auto 138px auto;
+}
+/*进度条*/
+.container .progress {
+    width: 400px;
+    height: 55px;
+    position: relative;
+    margin: 0 auto;
+}
+.step1,.step2,.step3 {
+    width: 80px;
+    height: 55px;
+    float: left;
+    text-align: center;
+}
+.step1 span {
+    color: #fff;
+    background: url("../images/reg-icon.png") 0px -200px;
+}
+.step2 span,.step3 span {
+    color: #999;
+    background: url("../images/reg-icon.png") -44px -199px;
+}
+.step1 span,.step2 span ,.step3 span  {
+    display: block;
+    width: 24px;
+    height: 24px;
+    margin: 0 auto  10px auto;
+}
+.step1 b,.step2 b,.step3 b {
+    font-size: 10px;
+    font-weight: 300;
+    color: #999999;
+}
+.step1 b {
+    color: #33BB44;
+}
+.step2,.step3{
+    margin-left: 80px;
+}
+.line1,.line2 {
+    width: 124px;
+    height: 10px;
+    position: absolute;
+    background: url("../images/reg-icon.png") 0px -100px;
+    top: 8px;
+}
+.line1 {
+    left: 60px;
+}
+.line2 {
+    left: 220px;
+}
+/*表单内容*/
+.main {
+    width: 400px;
+    height: 302px;
+    margin: 53px auto;
+}
+.item-phone{
+    width: 400px;
+    height: 86px;
+}
+.item-phone select {
+    float: left;
+    width: 87px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    border: 1px solid #ddd;
+    border-right: 0;
+    outline: none;
+}
+.item-phone input {
+    float: left;
+    width: 288px;
+    height: 48px;
+    border: 1px solid #ddd;
+    padding-left: 20px;
+    outline: none;
+}
+input:hover,select:hover {
+    border: 1px solid #666;
+}
+select:hover {
+    border-right: 0;
+}
+.item-btn{
+    width: 400px;
+    height: 50px;
+    border: 1px solid #ddd;
+    text-align: center;
+    line-height: 50px;
+    color: #333;
+    cursor: pointer;
+    position: relative;
+}
+.item-btn:hover {
+    border: 1px solid #666;
+}
+.item-btn img {
+    position: absolute;
+    bottom: 58px;
+    left: -5px;
+    display: none;
+    z-index: 1;
+}
+.item-btn b {
+    display: none;
+    width: 13px;
+    height: 13px;
+    background: url(../images/x.png);
+    position: absolute;
+    bottom: 285px;
+    right: 13px;
+    z-index: 2;
+}
+.item-btn2 {
+    width: 400px;
+    height: 54px;
+    background: #E2231A;
+    text-align: center;
+    line-height: 54px;
+    margin-top: 45px;
+    font-size: 18px;
+    color: #fff;
+    cursor: pointer;
+}
+.item-btn2:hover {
+    background: #C81623;
+}
+.item-bm {
+    height: 28px;
+    width: 400px;
+    margin-top: 25px;
+}
+.item-bm a {
+    color: #333;
+}
+.item-bm a:hover {
+    color: #E2231A;
+}
+.bml {
+    float: left;
+}
+.bmr {
+    float: right;
+}
+.item-bm span {
+    float: left;
+    display: block;
+    width: 26px;
+    height: 26px;
+    margin-right: 8px;
+}
+.bml span {
+     background: url("../images/reg-icon.png") 0px -161px;
+ }
+.bmr span {
+    background: url("../images/reg-icon.png") -40px -161px;
+}
+/*网页底部*/
+footer {
+    text-align: center;
+    font-size: 12px;
+    color: #ccc;
+    border-top: 1px solid #ccc;
+    height: 100px;
+    width: 1200px;
+    padding: 22px 70px;
+    margin: 0 auto;
+}
+footer ul {
+    margin: 30px auto;
+    width: 1050px;
+}
+footer li {
+    cursor: pointer;
+    float: left;
+    list-style: none;
+    display: block;
+    width: 90px;
+    border-right: 1px solid #ccc;
+}
+footer li:last-child {
+    border: 0;
+}
+footer p {
+    margin-top: 20px;
+}
+footer li:hover {
+    color: #e4393c;
+    text-decoration: underline;
+}
+/*遮罩层*/
+.bar{
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: #777;
+    opacity: 0.7;
+    z-index: 1000;
+}
+#show{
+    width: 955px;
+    height: 604px;
+    background: #fff;
+    position: absolute;
+    left: 18%;
+    top: 1%;
+    z-index: 1001;
+    display: none;
+}
+#show .show-title {
+    height: 31px;
+    line-height: 31px;
+    background: #F3F3F3;
+    font-size: 13px;
+    font-weight: 700;
+    color: #333;
+    padding-left: 20px;
+}
+#show .show-title b {
+    display: block;
+    width: 13px;
+    height: 13px;
+    background: url("../images/x.png");
+    position: absolute;
+    right: 20px;
+    top: 10px;
+}
+#show img {
+    cursor: pointer;
+}
+#show .show-button,#show .show-button2 {
+    width: 200px;
+    height: 54px;
+    line-height: 54px;
+    float: left;
+    font-size: 17px;
+    text-align: center;
+    cursor: pointer;
+}
+#show .show-button {
+    background: #E3E4E5;
+    color: #999;
+    margin-left: 260px;
+}
+#show .show-button2 {
+    background: #EE2222;
+    color: #fff;
+    margin-left: 30px;
+}
+#close {
+    cursor: pointer;
+}
+
+#close2 {
+    cursor: pointer;
+}
+.input span {
+    color: #ccc;
+    font-size: 12px;
+}
+.input .succ {
+    color: lightgreen;
+}
+.input .err {
+    color: red;
+}
